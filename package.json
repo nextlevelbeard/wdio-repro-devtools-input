@@ -1,0 +1,40 @@
+{
+  "name": "wdio-repro-devtools-input",
+  "scripts": {
+    "test:chromedriver": "wdio configs/chromedriver.config.js",
+    "test:grid": "wdio configs/grid.config.js",
+    "test:devtools": "wdio configs/devtools.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@https://github.com/nextlevelbeard/wdio-repro-devtools-input.git"
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "e2e-tests"
+  ],
+  "homepage": "https://github.com/nextlevelbeard/wdio-repro-devtools-input",
+  "dependencies": {
+    "@wdio/allure-reporter": "^5.18.6",
+    "@wdio/cli": "^5.19.0",
+    "@wdio/config": "^5.18.4",
+    "@wdio/local-runner": "^5.19.0",
+    "@wdio/logger": "^5.16.10",
+    "@wdio/mocha-framework": "^5.18.7",
+    "@wdio/runner": "^5.19.0",
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "@wdio/spec-reporter": "^5.18.7",
+    "@wdio/sync": "^5.18.7",
+    "chai": "latest",
+    "chromedriver": "latest",
+    "devtools": "^5.19.0",
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriver": "^5.19.0",
+    "webdriverio": "^5.19.0"
+  },
+  "engines": {
+    "node": ">=12.13.0",
+    "npm": ">=6.12.0"
+  }
+}
